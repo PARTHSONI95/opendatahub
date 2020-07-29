@@ -6,8 +6,8 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/opendatahub",
   plugins: [
     `gatsby-plugin-sass`    
-  ],
-  pathPrefix: "/opendatahub"
+  ], 
 }
