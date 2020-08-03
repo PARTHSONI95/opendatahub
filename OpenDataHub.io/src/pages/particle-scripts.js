@@ -1,0 +1,25 @@
+/* import React from "react"
+
+
+export default function ParticleScripts() {
+  
+  return (
+
+<div>
+<script src="assets/js/particles/particles.min.js"></script>
+<script>
+  particlesJS.load('particles', 'assets/js/particlesjs-config.json', function() {
+    console.log('callback -particlesjs-config.json config loaded')
+  });
+
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar.fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > 0);
+      // $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    })
+  });
+</script>
+</div>
+  )
+} */

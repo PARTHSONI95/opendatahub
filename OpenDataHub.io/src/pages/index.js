@@ -1,9 +1,15 @@
 import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Layout from '../components/layout'
+import { Link } from 'gatsby'
 
 export default function Home() {
   
   return (
+    
+  
+    <Layout>       
     <main role="main" class="main home">
     {/* <div id="particles" class="jumbotron particles">
         <div class="image-container" onmousedown="return false">
@@ -20,6 +26,7 @@ export default function Home() {
         </div>
     </div>
  */}
+    
     <div class="jumbotron small">
         <div class="image-container">
             <img class="jumbotron-img" src="assets/img/logos/datahub_color_vert-gry-bg.png" alt="DATA HUB ICON"/>
@@ -28,12 +35,12 @@ export default function Home() {
             <h1>A Data & AI Platform for the Hybrid Cloud</h1>
         </div>
         <div class="button-container">
-            <a class="btn btn-lg btn-primary btn-getting-started"
-               href="{{ site.baseurl }}/docs.html"
-               role="button">Get started
-            </a>
+            <Link class="btn btn-lg btn-primary btn-getting-started"
+               to="/docs"
+               role="button"> Get started
+            </Link>
         </div>
-    </div>
+    </div>  
 
     <div class="container what-is">
         <div class="row dh-info">
@@ -96,6 +103,7 @@ export default function Home() {
         </div>
     </div>
 </main>
+</Layout>
 
   )
 }
