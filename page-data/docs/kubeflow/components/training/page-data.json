@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-product-js","path":"/docs/kubeflow/components/training","result":{"data":{"markdownRemark":{"html":"<p>{% include next-link.html label=\"Miscellaneous\" url=\"/docs/kubeflow/components/misc.html\" %}</p>"}},"pageContext":{"permalink":"/docs/kubeflow/components/training"}}}

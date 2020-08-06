@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-product-js","path":"/docs/kubeflow/components/jupyter","result":{"data":{"markdownRemark":{"html":"<p>{% include next-link.html label=\"Hyperparamater Tuning\" url=\"/docs/kubeflow/components/hyperparameter.html\" %}</p>"}},"pageContext":{"permalink":"/docs/kubeflow/components/jupyter"}}}
