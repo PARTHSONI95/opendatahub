@@ -1,128 +1,128 @@
 toc:
   - title: Introduction
-    url: /docs.html
+    url: /docs
   - title: Getting Started
-    url: /docs/getting-started/quick-installation.html
+    url: /docs/getting-started/quick-installation
     phony: true
     children:
       - title: Quick Installation
-        url: /docs/getting-started/quick-installation.html
+        url: /docs/getting-started/quick-installation
       - title: Basic Tutorial
-        url: /docs/getting-started/basic-tutorial.html
+        url: /docs/getting-started/basic-tutorial
       - title: Legacy
         children:
           - title: Quick Installation
-            url: /docs/getting-started/legacy/quick-installation.html
+            url: /docs/getting-started/legacy/quick-installation
           - title: Basic Tutorial
-            url: /docs/getting-started/legacy/basic-tutorial.html
+            url: /docs/getting-started/legacy/basic-tutorial
   - title: Advanced Tutorials
-    url: /docs/advanced-tutorials/data-exploration.html
+    url: /docs/advanced-tutorials/data-exploration
     phony: true
     children:
 #      - title: JupyterHub
-#        url: /docs/advanced-tutorials/jupyterhub.html
+#        url: /docs/advanced-tutorials/jupyterhub
 #      - title: HDFS Data
-#        url: /docs/advanced-tutorials/hdfs.html
+#        url: /docs/advanced-tutorials/hdfs
 #      - title: Data Warehouses
-#        url: /docs/advanced-tutorials/warehouse.html
+#        url: /docs/advanced-tutorials/warehouse
 #      - title: Ceph
-#        url: /docs/advanced-tutorials/ceph.html
+#        url: /docs/advanced-tutorials/ceph
 #      - title: Spark
-#        url: /docs/advanced-tutorials/spark.html
+#        url: /docs/advanced-tutorials/spark
 #      - title: Seldon
-#        url: /docs/advanced-tutorials/seldon.html
+#        url: /docs/advanced-tutorials/seldon
 #      - title: Argo
-#        url: /docs/advanced-tutorials/argo.html
+#        url: /docs/advanced-tutorials/argo
       - title: Data Exploration
-        url: /docs/advanced-tutorials/data-exploration.html
+        url: /docs/advanced-tutorials/data-exploration
 #      - title: Kafka
-#        url: /docs/advanced-tutorials/kafka.html
+#        url: /docs/advanced-tutorials/kafka
 #      - title: Combined
-#        url: /docs/advanced-tutorials/combined.html
+#        url: /docs/advanced-tutorials/combined
 # Uncomment when Kubeflow docs are ready
   - title: Kubeflow
-    url: /docs/kubeflow.html
+    url: /docs/kubeflow
     phony: true
     children:
       - title: Overview
-        url: /docs/kubeflow.html
+        url: /docs/kubeflow
       - title: Installation
-        url: /docs/kubeflow/installation.html
+        url: /docs/kubeflow/installation
       - title: Combining components
-        url: /docs/kubeflow/mixing.html
+        url: /docs/kubeflow/mixing
 #      - title: Components
-#       url: /docs/kubeflow/components/jupyter.html
+#       url: /docs/kubeflow/components/jupyter
 #       phony: true
 #        children:
 #          - title: Jupyter Notebooks
-#            url: /docs/kubeflow/components/jupyter.html
+#            url: /docs/kubeflow/components/jupyter
 #          - title: Hyperparameter Tuning
-#            url: /docs/kubeflow/components/hyperparameter.html
+#            url: /docs/kubeflow/components/hyperparameter
 #          - title: Pipelines
-#            url: /docs/kubeflow/components/pipelines.html
+#            url: /docs/kubeflow/components/pipelines
 #          - title: Serving
-#            url: /docs/kubeflow/components/serving.html
+#            url: /docs/kubeflow/components/serving
 #          - title: Training
-#            url: /docs/kubeflow/components/training.html
+#            url: /docs/kubeflow/components/training
 #          - title: Miscellaneous
-#            url: /docs/kubeflow/components/misc.html
+#            url: /docs/kubeflow/components/misc
   - title: AI Library
-    url: /docs/ai-library.html
+    url: /docs/ai-library
     phony: true
     children:
       - title: Overview
-        url: /docs/ai-library.html
+        url: /docs/ai-library
       - title: Installation
-        url: /docs/ai-library/installation.html
+        url: /docs/ai-library/installation
       - title: Services
-        url: /docs/ai-library/services.html
+        url: /docs/ai-library/services
 #      - title: Custom Models
-#        url: /docs/ai-library/custom-models.html
+#        url: /docs/ai-library/custom-models
 #      - title: API
-#        url: /docs/ai-library/api.html
+#        url: /docs/ai-library/api
   - title: Administration
-    url: /docs/administration/installation-customization/customization.html
+    url: /docs/administration/installation-customization/customization
     phony: true
     children:
       - title: Customizing Installation
-        url: /docs/administration/installation-customization/customization.html
+        url: /docs/administration/installation-customization/customization
         phony: true
       - title: Advanced Installation
-        url: /docs/administration/advanced-installation/optional.html
+        url: /docs/administration/advanced-installation/optional
         phony: true
         children:
           - title: Optional Components
-            url: /docs/administration/advanced-installation/optional.html
+            url: /docs/administration/advanced-installation/optional
           - title: Object Storage
-            url: /docs/administration/advanced-installation/object-storage.html
+            url: /docs/administration/advanced-installation/object-storage
           - title: GPU Enablement
-            url: /docs/administration/advanced-installation/gpu.html
+            url: /docs/administration/advanced-installation/gpu
 #      - title: Upgrading
-#        url: /docs/administration/upgrading.html
+#        url: /docs/administration/upgrading
 #      - title: Monitoring
-#        url: /docs/administration/monitoring.html
+#        url: /docs/administration/monitoring
 #      - title: Security
-#        url: /docs/administration/security.html
+#        url: /docs/administration/security
 #      - title: Troubleshooting
-#        url: /docs/administration/troubleshooting.html
+#        url: /docs/administration/troubleshooting
   - title: Architecture
-    url: /docs/architecture.html
+    url: /docs/architecture
   - title: Roadmap
-    url: /docs/roadmap/future.html
+    url: /docs/roadmap/future
     phony: true
     children:
       - title: Future
-        url: /docs/roadmap/future.html
+        url: /docs/roadmap/future
       - title: Release Notes
-        url: /docs/roadmap/release-notes.html
+        url: /docs/roadmap/release-notes
   - title: Additional Resources
-    url: /docs/additional.html
+    url: /docs/additional
     children:
       - title: Community
-        url: /docs/additional.html#community
+        url: /docs/additional#community
       - title: Videos
-        url: /docs/additional.html#videos
+        url: /docs/additional#videos
       - title: Audio
-        url: /docs/additional.html#audio
+        url: /docs/additional#audio
 #  - title: FAQ
-#    url: /docs/faq.html
+#    url: /docs/faq

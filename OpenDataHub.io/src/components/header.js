@@ -34,6 +34,7 @@ return(
 <meta name="description" content="{{ page.description | default: site.description | smartify }}"/>
 <meta name="author" content="{{ site.authors }}"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135170115-1"></script>
+
 <script>
   {`
   window.dataLayer = window.dataLayer || [];
@@ -49,7 +50,7 @@ return(
 </title>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" />
+<link href="assets/css/main.css" rel="stylesheet" />
 
 <Favicon />
 

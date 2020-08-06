@@ -5,6 +5,7 @@ title:  Open Data Hub at DevConf.US 2018
 preview: The Open Data Hub team had several announcements and talks at DevConf.US 2018!  Watch the recorded sessions to learn more about the project.
 date: 2018-11-28
 categories: conference, talk, devconf
+permalink: /news/open-data-hub-at-devconf-us
 ---
 
 The Open Data Hub team had several announcements and talks at DevConf.US 2018!  Watch the recorded sessions to learn more about the project.

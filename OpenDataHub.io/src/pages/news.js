@@ -18,7 +18,7 @@ const news = ({ data }) =>
                     </p>
                 </div>
                 <div class="next-link">
-                    <a class="btn btn-light" href=""> Read <i class="fas fa-angle-right"></i></a>
+                    <a class="btn btn-light" href={node.frontmatter.permalink}> Read <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
         ))
@@ -31,13 +31,14 @@ const news = ({ data }) =>
 
 export const query = graphql`
 query MyQuery {
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {permalink: {regex: "/news/i"}}}) {
       edges {
         node {
           frontmatter {
             title
             date(formatString: "DD MMM YYYY")
             preview
+            permalink
           }
         }
       }

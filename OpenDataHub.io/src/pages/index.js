@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
-
 export default function Home() {
   
   return (
@@ -36,7 +35,7 @@ export default function Home() {
         </div>
         <div class="button-container">
             <Link class="btn btn-lg btn-primary btn-getting-started"
-               to="/docs"
+               to="/docs-sidebar"
                role="button"> Get started
             </Link>
         </div>
@@ -81,7 +80,7 @@ export default function Home() {
                     <h2 class="dh-info-title">Getting Started</h2>
                     <p>
                         For additional information about the Open Data Hub, read
-                        our <a href="{{ site.baseurl }}/news.html">blogs</a> and <a href="{{ '/docs.html' | prepend: site.baseurl }}">documentation</a>.
+                        our <a href="/news">blogs</a> and <a href="{{ '/docs.html' | prepend: site.baseurl }}">documentation</a>.
                     </p>
                     <p>
                         To set up the Open Data Hub, all you need is a running <a href="https://www.openshift.com/">OpenShift&reg;</a>
